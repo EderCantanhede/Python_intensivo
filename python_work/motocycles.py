@@ -1,0 +1,15 @@
+motos = []
+motos.append("honda")
+motos.append("yamaha")
+motos.append("suzuki")
+motos.insert(0, "ducati")
+motos.insert(1, "Kawasaki")
+motos.insert(2, "harley")
+del motos[3]
+print(motos)
+popped_motos = motos.pop()
+print(popped_motos)
+last_owned = motos.pop()
+print("the last motorcycle I owned was a " + last_owned.title() + ".")
+first_owned = motos.pop(0)
+print("The first motorcycle I owned was a " + first_owned.title() + ".")
