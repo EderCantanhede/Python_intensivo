@@ -1,5 +1,3 @@
-# Exercício por fazer
-
 """
 Glossário
 * Pense em cinco palavras relacionadas à programação que você conheceu
@@ -22,3 +20,5 @@ glossario = {
 }
 for palavra, gloss in glossario.items():
     print("\n" + palavra + ": " + str(gloss) + ".")
+
+
