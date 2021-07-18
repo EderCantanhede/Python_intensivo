@@ -13,4 +13,5 @@ while True:
     if pizza == 'quit':
         break
     else:
-        print("Seu pedido ficara pronto em 5min " + pizza.title())
+        print("Seu pedido ficara pronto em 5 minutos ")
+        print("E esses ingredientes: " + pizza.title() + " serão acrescentados ao seu pedido")
